@@ -27,4 +27,4 @@ function fetchData() {
 // call the function to start executing it when the page loads inside Electron.
 setInterval(() => {
   fetchData();
-}, 60000);
+}, 5000);
